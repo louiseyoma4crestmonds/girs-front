@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import PopBackdrop from "@/atoms/PopBackdrop";
-import Button from "../../atoms/Buttons";
+import Button from "../../atoms/Button";
 import CloseButton from "../../atoms/CloseButton";
 import { ErrorProps } from "./ErrorPopup.types";
 import styles from "./ErrorPopup.module.css";
@@ -21,7 +21,12 @@ function ErrorPopup(props: ErrorProps): JSX.Element {
         <div className={styles.heading}>Oops</div>
         <div className={styles.message}>{children}</div>
         <div className={styles.buttonArea}>
-          <Button variant="errorButton" width="full" onClick={closePopup}>
+          <Button
+            variant="primary"
+            width="full"
+            color="deepOrange"
+            onClick={closePopup}
+          >
             Try again
           </Button>
         </div>

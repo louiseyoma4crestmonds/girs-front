@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { useRouter } from "next/router";
 import Heading from "@/atoms/Heading";
-import CrestLogo from "@/atoms/CrestLogo";
 import { EnrollmentFormProps } from "./EnrollemntPageStructure.types";
 
 function EnrollmentPageStructure(props: EnrollmentFormProps) {

@@ -6,7 +6,6 @@ import Image from "next/image";
 import axios from "axios";
 import Button from "@/atoms/Button";
 import Heading from "../../atoms/Heading";
-import CrestLogo from "../../atoms/CrestLogo/CrestLogo";
 import AuthenticationModal from "../AuthenticationModal";
 import styles from "./ChangePassword.module.css";
 import { appURL } from "../../services/connection";
@@ -182,9 +181,6 @@ function ChangePassword(props: ResetType): JSX.Element {
                 </a>
               </Link>
               <Link href="/">Go Back</Link>
-            </div>
-            <div className={styles.logoArea}>
-              <CrestLogo />
             </div>
 
             <Heading Tag="h2" variant="xl" className="mt-10">

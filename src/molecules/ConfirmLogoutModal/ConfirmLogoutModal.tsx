@@ -1,6 +1,6 @@
 import { signOut, useSession } from "next-auth/react";
 import { destroyCookie } from "nookies";
-import Button from "@/atoms/Buttons";
+import Button from "@/atoms/Button";
 import Backdrop from "../Backdrop";
 import { ConfrimLogoutModalProps } from "./ConfirmLogoutModal.types";
 import styles from "./ConfirmLogoutModal.module.css";
@@ -29,7 +29,8 @@ function ConfirmLogoutModal(props: ConfrimLogoutModalProps): JSX.Element {
         <div className="w-full flex flex-row mb-6 ">
           <div className="w-1/2 flex justify-center">
             <Button
-              variant="flexibleButtonSecondary"
+              variant="primary"
+              color="deepOrange"
               onClick={() => {
                 setShowConfirmBox(false);
               }}
@@ -41,7 +42,8 @@ function ConfirmLogoutModal(props: ConfrimLogoutModalProps): JSX.Element {
           </div>
           <div className="w-1/2 flex justify-center">
             <Button
-              variant="flexible1"
+              variant="primary"
+              color="deepOrangeSecondary"
               onClick={() => {
                 if (session) {
                   signOut({ redirect: false, callbackUrl: "/logout" });

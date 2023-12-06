@@ -1,6 +1,0 @@
-.dashboardDropdownToggle {
-  @apply mr-1 w-4 h-4 transform duration-200 cursor-pointer;
-}
-.dashboardDropdownToggle {
-  @apply rotate-180 cursor-pointer;
-}
