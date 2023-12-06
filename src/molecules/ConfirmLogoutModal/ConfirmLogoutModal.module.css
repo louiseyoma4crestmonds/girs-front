@@ -1,0 +1,9 @@
+.frame {
+  @apply w-[40%] h-auto  laptop:h-[45%] desktop:h-[45%] plasma:h-[45%]  bg-crest-white rounded-lg phone:w-[95%] px-14;
+}
+.headingText {
+  @apply w-full text-4xl text-crest-black font-bold text-center mt-8;
+}
+.messageBody {
+  @apply text-xl text-crest-black py-10 leading-10 text-center;
+}

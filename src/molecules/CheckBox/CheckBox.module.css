@@ -1,0 +1,32 @@
+.checkBox {
+  @apply w-4 h-4 rounded-lg border border-crest-gray100 bg-white;
+}
+
+.label {
+  @apply self-center text-left;
+}
+
+.activeCheckBox {
+  @apply w-4 h-4 rounded-lg border border-crest-black bg-crest-orange self-center;
+}
+
+.normalCheckBox {
+  @apply flex gap-x-4 items-center my-4  font-normal text-crest-black;
+}
+
+.invertedCheckBox {
+  @apply flex flex-row-reverse justify-end gap-x-4 items-center my-4;
+}
+
+.invertedSmallCheckBox {
+  @apply flex flex-row-reverse justify-end gap-x-4 items-center my-4;
+}
+
+/* Width Styling */
+.checkBoxNormalWidth {
+  @apply w-14;
+}
+
+.checkBoxFullWidth {
+  @apply w-full;
+}

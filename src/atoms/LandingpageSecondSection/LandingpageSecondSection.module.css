@@ -1,0 +1,33 @@
+.landingpageSecondSectionContainer {
+  @apply w-full gap-4 flex items-center phone:flex-col phone:text-center tablet:pb-24 laptop:flex-row laptop:pb-24 desktop:pb-0;
+}
+.landingpageSecondSectionContainer2 {
+  @apply w-full gap-4 flex items-center phone:flex-col phone:pt-8 phone:text-center tablet:pb-24 laptop:flex-row laptop:pb-24 desktop:pb-0;
+}
+.landingpageSecondSectionTitle {
+  @apply text-[52px] font-bold text-crest-black laptop:w-[580px];
+}
+.landingpageSecondSectionTitle2 {
+  @apply text-[52px] font-bold text-crest-black desktop:w-[580px];
+}
+.landingpageSecondSectionText {
+  @apply text-xl font-normal text-crest-gray mt-3 laptop:w-[450px];
+}
+.landingpageSecondSectionText2 {
+  @apply text-xl font-normal text-crest-gray mt-3 laptop:w-[450px];
+}
+.landingpageSecondSectionLeft {
+  @apply pt-14 tablet:w-2/4 laptop:w-2/4;
+}
+.landingpageSecondSectionLeft2 {
+  @apply pt-14 phone:pt-0 tablet:w-2/4 laptop:w-2/4;
+}
+.landingpageSecondSectionRight {
+  @apply flex justify-end tablet:w-2/4 laptop:w-2/4;
+}
+.landingpageSecondSectionRight2 {
+  @apply tablet:w-2/4 laptop:w-2/4;
+}
+.landingpageSecondSectionLine {
+  @apply hidden tablet:hidden desktop:flex desktop:justify-center;
+}

@@ -1,0 +1,42 @@
+.profileTabWrapper {
+  @apply pt-6 flex w-full pb-10 phone:flex-col;
+}
+.profileTableft {
+  @apply w-1/4 flex justify-center phone:w-full;
+}
+.profileTabRight {
+  @apply w-3/4 phone:w-full phone:mt-4 phone:px-4;
+}
+.profileTabRightDiv {
+  @apply flex gap-5 mt-2.5 phone:flex-col phone:gap-0;
+}
+.profiletabInput {
+  @apply w-1/2 bg-crest-ash110 rounded-md px-2 py-2.5 border text-base font-medium mt-2.5 focus:border-crest-gray focus:outline-none;
+}
+.profiletabForm {
+  @apply flex flex-col justify-between gap-7 mt-8 phone:flex-col phone:gap-2;
+}
+.profiletabForm2 {
+  @apply flex flex-col justify-between gap-7 mt-8 phone:flex-col phone:gap-2 phone:mt-1.5;
+}
+.profiletabFormFirstDiv {
+  @apply w-full;
+}
+.profiletabBtnDiv {
+  @apply mt-16 phone:w-full;
+}
+.profiletabBtn {
+  @apply w-full;
+}
+.profiletabLabelText {
+  @apply text-crest-ashBlue text-sm font-normal;
+}
+.profileTabSpanEmail {
+  @apply text-crest-gray font-medium text-sm;
+}
+.profileTabSpan {
+  @apply text-crest-deepBlue text-sm font-medium;
+}
+.successMsg {
+  @apply bg-[#d1e7dd] text-center py-2.5 mt-4 rounded-md text-crest-green;
+}

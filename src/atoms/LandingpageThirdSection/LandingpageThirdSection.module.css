@@ -1,0 +1,10 @@
+.landingpageThirdSectionContainer {
+  @apply text-center pb-20 mt-14 tablet:mt-0 laptop:mt-20 desktop:mt-40;
+}
+
+.landingpageThirdSectionText {
+  @apply text-xl text-crest-black font-normal pb-6;
+}
+.landingpageThirdSectionSpan {
+  @apply text-[32px] font-bold text-crest-black pb-14;
+}

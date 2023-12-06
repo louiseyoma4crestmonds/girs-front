@@ -1,0 +1,28 @@
+.landingpageFirstsectionContainer {
+  @apply flex mt-8 w-full gap-7 phone:flex-col phone:mt-20;
+}
+@screen laptop {
+  .landingpageFirstsectionContainer {
+    @apply flex flex-row mt-8 w-full gap-7;
+  }
+}
+@screen desktop {
+  .landingpageFirstsectionContainer {
+    @apply flex flex-row mt-8 w-full gap-7;
+  }
+}
+.landingpageFirstsectionTitle {
+  @apply font-bold text-crest-black text-7xl laptop:w-[465px];
+}
+.landingpageFirstsectionText {
+  @apply text-xl font-normal text-crest-gray mt-8 pb-16 phone:pb-8 laptop:w-[520px];
+}
+.landingpageFirstsectionLeft {
+  @apply tablet:w-2/4 tablet:mt-[120px] laptop:w-2/4 laptop:mt-[160px];
+}
+.landingpageFirstsectionRight {
+  @apply flex justify-center  tablet:w-2/4 tablet:justify-end laptop:w-2/4 laptop:justify-end;
+}
+.landingpageFirstSectionLower {
+  @apply flex gap-3 items-center mt-9;
+}

@@ -1,0 +1,9 @@
+.landingpageCoursesContainer {
+  @apply bg-crest-transparent rounded-2xl p-10 phone:w-full phone:mb-6 tablet:w-2/6 tablet:mb-0;
+}
+.landingpageCoursesTitle {
+  @apply text-3xl font-bold text-crest-black mt-5 pb-8;
+}
+.landingpageCoursesDesc {
+  @apply text-xl font-normal text-crest-gray pb-8;
+}

@@ -1,0 +1,21 @@
+.panelWrapper {
+  @apply flex relative phone:block tablet:block lg:flex-col bg-white rounded-xl p-5 w-full phone:px-2;
+}
+
+@screen desktop {
+  .panelWrapper {
+    @apply p-5;
+  }
+}
+
+.panelHasShadow {
+  @apply drop-shadow-lg;
+}
+
+.panelDeepBlue {
+  @apply bg-crest-deep-blue text-white;
+}
+
+.panelNotRounded {
+  @apply rounded-sm pb-20 pl-8 pt-10 phone:pb-10;
+}

@@ -1,0 +1,13 @@
+.FooterArea {
+  @apply w-full pl-5 pb-6 flex;
+}
+.FooterTextStyle {
+  @apply cursor-pointer font-semibold;
+}
+
+.FooterPrimary {
+  @apply text-black;
+}
+.FooterSecondary {
+  @apply text-crest-gray;
+}

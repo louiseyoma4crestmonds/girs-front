@@ -1,0 +1,43 @@
+.closeArea {
+  @apply w-full flex justify-end pr-2 pt-2;
+}
+.frame {
+  @apply flex flex-col w-1/2 h-5/6 phone:h-[95%] m-10 phone:mx-4 pl-4  bg-white rounded-md phone:w-full md:w-full;
+}
+.innerFrame {
+  @apply flex flex-col w-full h-auto overflow-y-auto;
+}
+.flexHorizontal {
+  @apply flex flex-row items-center;
+}
+.heading {
+  @apply flex text-black text-xl font-bold;
+}
+.heading2 {
+  @apply flex text-black text-xl font-extrabold ml-1;
+}
+
+.bodyText {
+  @apply px-4 mr-4 flex text-black flex-col text-sm;
+}
+.documentHeading1 {
+  @apply font-bold text-black text-xl;
+}
+.listDisc {
+  @apply list-disc list-outside  ml-4;
+}
+.flexCol {
+  @apply flex flex-col mt-2;
+}
+.topMargin {
+  @apply mt-2;
+}
+.address {
+  @apply font-medium leading-none;
+}
+.divider {
+  @apply h-5 border-b-4 border-black text-2xl text-center my-4;
+}
+.topMargin {
+  @apply mt-2;
+}

@@ -1,0 +1,12 @@
+.paginationFrame {
+  @apply flex text-sm;
+}
+.paginationDiv {
+  @apply px-2 py-0.5 cursor-pointer border border-[#DEDEDE] text-[#3C3C3C] phone:bg-crest-white;
+}
+.paginationDivActive {
+  @apply bg-[#FCE7E5] text-[#FC4409] px-2 py-0.5 cursor-pointer border border-[#DEDEDE];
+}
+.paginationDivBtn {
+  @apply px-2 py-0.5 cursor-pointer border border-[#DEDEDE] text-[#3C3C3C] flex items-center phone:bg-crest-white;
+}

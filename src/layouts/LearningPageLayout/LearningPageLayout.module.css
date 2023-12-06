@@ -1,0 +1,39 @@
+.mainFrame {
+  @apply w-full bg-crest-background select-none;
+}
+.titleArea {
+  @apply w-full h-auto flex justify-between pt-4 pr-6 phone:pr-0;
+}
+.titleBar {
+  @apply flex justify-start pl-4;
+}
+.middlePane {
+  @apply w-full h-[calc(80vh-5rem)] mt-4 mb-8 flex justify-between  phone:flex-col phone:relative phone:h-auto phone:mb-0 phone:bg-crest-white;
+}
+.leftFrame {
+  @apply w-2/3 px-4 h-auto phone:w-full;
+}
+/* .rightFrame {
+  @apply w-1/3 h-auto phone:w-full phone:flex phone:justify-center phone:absolute phone:mt-12;
+} */
+.rightFrame {
+  @apply w-1/3 h-auto phone:hidden;
+}
+.rightFrame2 {
+  @apply laptop:hidden desktop:hidden tablet:hidden plasma:hidden phone:w-full phone:flex phone:justify-center phone:absolute phone:mt-12;
+}
+.bottomArea {
+  @apply w-full phone:bg-crest-white;
+}
+/* .bottomArea {
+  @apply w-full h-[calc(100vh-(80vh+2rem))] phone:mt-4 phone:h-auto;
+} */
+.navBar {
+  @apply w-0 h-0 invisible flex justify-between px-4 font-medium mb-6 phone:w-full phone:h-10 phone:visible;
+}
+.watchVideoClick {
+  @apply w-1/2 h-10 bg-crest-white text-base flex justify-center items-center bg-opacity-50;
+}
+.updateNoteClick {
+  @apply w-1/2 h-10 bg-crest-white text-base flex justify-center items-center bg-opacity-50;
+}

@@ -1,0 +1,21 @@
+.landingpageFooterContainer {
+  @apply w-full bg-crest-deepBlue mx-auto;
+}
+.landingpageInsideFooter {
+  @apply py-32 flex justify-between px-8 phone:flex-col tablet:px-20 desktop:px-48;
+}
+.landingpageFooterInput {
+  @apply py-2 px-4 bg-crest-deepBlue text-crest-white text-base border-2 rounded-lg phone:w-[200px] tablet:w-[340px];
+}
+.landingpageFooterText {
+  @apply text-lg font-normal text-crest-white  opacity-60;
+}
+.landingpageFooterIcons {
+  @apply flex gap-4 mt-8;
+}
+.landingpageFooterBtn {
+  @apply text-center phone:mt-3 tablet:mt-2 laptop:mt-0;
+}
+.landingpageFooterBtnDiv {
+  @apply flex phone:flex-col tablet:flex-col laptop:flex-row;
+}

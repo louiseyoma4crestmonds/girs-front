@@ -1,0 +1,183 @@
+.btn {
+  @apply inline-flex items-center px-6 py-3 rounded-full font-medium ease-in-out duration-300;
+}
+
+.btn svg {
+  @apply inline-block mr-3;
+}
+
+.btn:disabled,
+.btn:disabled:hover {
+  @apply cursor-not-allowed bg-gray-50 text-gray-200;
+}
+.btn:disabled:hover {
+  @apply animate-shake;
+}
+
+/* Button Widths */
+.btnFull {
+  @apply w-full;
+}
+
+/* Button Variants New Implementations */
+
+/* Primary variant */
+.btnPrimary {
+  @apply w-full rounded py-3.5 border;
+}
+
+/*
+.btnPrimary {
+  @apply bg-crest-red100 text-white;
+}
+.btnPrimary:hover {
+  @apply bg-crest-red-dark;
+}
+*/
+
+/* Button Color New Implementation */
+.btnColorDeepOrange {
+  @apply bg-crest-deepOrange text-white;
+}
+
+.btnColorDeepOrangeDisabled {
+  @apply bg-crest-lightOrange50 text-crest-deepOrange border border-crest-deepOrange;
+}
+
+.btnColorDeepOrange:hover {
+  @apply bg-crest-deepOrange100 text-white;
+}
+
+.btnColorDeepOrangeSecondary {
+  @apply bg-white border border-crest-deepOrange text-crest-deepOrange;
+}
+
+.btnColorDeepOrangeSecondaryDisabled {
+  @apply bg-crest-lightOrange50 text-crest-lightOrange10;
+}
+
+.btnColorDeepOrangeSecondary:hover {
+  @apply border border-crest-deepOrange bg-crest-lightOrange50 text-crest-deepOrange;
+}
+
+/* Purple */
+.btnColorPurple {
+  @apply bg-crest-purple200 text-white;
+}
+
+.btnColorPurple:hover {
+  @apply bg-crest-purpleSoft text-white;
+}
+
+.btnColorPurpleDisabled {
+  @apply bg-crest-purpleSoft text-crest-purple200;
+}
+
+.btnColorPurpleSecondary {
+  @apply bg-white border border-crest-purple200 text-crest-purple200;
+}
+
+.btnColorPurpleSecondary:hover {
+  @apply border border-crest-purple200 bg-crest-purpleSoft text-crest-purple200;
+}
+
+/* Buttorn Width New Implementation */
+.btnLarge {
+  @apply w-56;
+}
+
+.btnMedium {
+  @apply w-28;
+}
+
+.btnAuto {
+  @apply w-auto;
+}
+
+/* ===============================================================================================*/
+
+.btnPrimaryNotes {
+  @apply bg-[#E43700] text-white;
+}
+.btnPrimaryNotes:hover {
+  @apply bg-crest-red-dark;
+}
+
+.btnSecondaryNotes {
+  @apply bg-[#FCE7E5] text-[#FC4409];
+}
+
+.btnSecondaryNotes2 {
+  @apply border border-[#3C3C3C] bg-crest-transparent;
+}
+
+.btnLandingPage {
+  @apply bg-crest-red text-white rounded-full phone:block;
+}
+.btnLandingPage:hover {
+  @apply bg-crest-red-dark;
+}
+
+.btnSecondary {
+  @apply bg-crest-red/[.08] text-crest-red;
+}
+.btnSecondary:hover {
+  @apply bg-crest-red/[.2];
+}
+
+.btnMuted {
+  @apply bg-crest-gray text-white;
+}
+.btnMuted:hover {
+  @apply bg-crest-gray-dark;
+}
+
+.btnAccent {
+  @apply bg-crest-purple text-white;
+}
+.btnAccent:hover {
+  @apply bg-crest-purple-dark;
+}
+
+.btnBlack {
+  @apply bg-crest-black text-white;
+}
+.btnBlack:hover {
+  @apply bg-black;
+}
+
+.btnForest {
+  @apply bg-crest-green text-white rounded-full;
+}
+.btnForest:hover {
+  @apply bg-crest-green;
+}
+
+.btnOrange {
+  @apply bg-crest-orange text-white rounded-lg;
+}
+.btnOrange:hover {
+  @apply bg-crest-orange;
+}
+
+.btnPurple {
+  @apply bg-crest-purple text-white rounded-lg;
+}
+.btnPurple:hover {
+  @apply bg-crest-purple;
+}
+
+.btnFreeTrial {
+  @apply bg-crest-white text-crest-red border border-crest-red rounded-full phone:block;
+}
+
+.btnFreeTrialRLG {
+  @apply bg-crest-white text-crest-red border border-crest-red rounded-lg phone:block;
+}
+
+.btnCheckoutBack {
+  @apply bg-crest-white border border-crest-black text-crest-black rounded-full;
+}
+.btnCheckoutBack:hover {
+  @apply bg-crest-black text-crest-white;
+}

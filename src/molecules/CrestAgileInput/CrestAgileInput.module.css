@@ -1,0 +1,33 @@
+.crestAgileInput {
+  @apply border border-crest-gray100 text-base text-crest-gray100 rounded-md px-4 bg-crest-ash110;
+}
+/* Width Styling*/
+.normalWidth {
+  @apply w-[498px];
+}
+.fullWidth {
+  @apply w-full;
+}
+.middleWidth {
+  @apply w-11/12;
+}
+
+/* Height Styling */
+.smallHeight {
+  @apply h-12;
+}
+.mediumHeight {
+  @apply h-16 text-lg text-crest-black;
+}
+.largeHeight {
+  @apply h-20;
+}
+
+/* Variant Styling*/
+.selectVariant {
+  @apply self-center cursor-pointer w-full bg-crest-ash110 h-full outline-none;
+}
+
+.disabled {
+  @apply pointer-events-none h-16 border border-crest-gray100 text-base text-crest-gray100 rounded-md px-4 bg-crest-ash110;
+}

@@ -1,0 +1,18 @@
+.frame {
+  @apply w-2/5 h-auto pb-8 rounded-lg bg-crest-white flex flex-col phone:w-full phone:mx-4 md:w-full md:mx-4;
+}
+.closeButton {
+  @apply w-full flex justify-end pr-2 mt-2;
+}
+.centerImage {
+  @apply flex justify-center;
+}
+.heading {
+  @apply text-3xl text-[#05AA4B] font-medium mt-6 text-center;
+}
+.message {
+  @apply text-center font-normal text-xl text-[#434343] pl-10 pr-10 pt-2;
+}
+.buttonArea {
+  @apply text-center mt-10 flex justify-center;
+}

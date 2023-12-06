@@ -1,0 +1,24 @@
+.frame {
+  @apply w-5/12 h-auto flex flex-col px-4  py-4 bg-crest-white rounded-lg phone:w-11/12;
+}
+.closeButtonArea {
+  @apply w-full flex justify-end;
+}
+.modelImageFrame {
+  @apply flex justify-center pb-8 pt-2 pointer-events-none;
+}
+.heading {
+  @apply font-bold text-black text-xl mb-4 flex justify-center;
+}
+.message {
+  @apply leading-tight text-xl  text-center px-10 phone:px-4 text-crest-gray-dark mb-4;
+}
+.buttonArea {
+  @apply flex flex-row mt-12  justify-center;
+}
+.buttonFrame {
+  @apply cursor-pointer;
+}
+.buttonArea {
+  @apply flex justify-center mb-2;
+}

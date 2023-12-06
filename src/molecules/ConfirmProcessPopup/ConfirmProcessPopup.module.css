@@ -1,0 +1,12 @@
+.frame {
+  @apply w-[20%] flex flex-col px-10 py-8 bg-crest-white rounded-lg phone:w-full phone:mx-4 md:w-11/12;
+}
+.heading {
+  @apply font-bold text-black text-xl mb-4;
+}
+.message {
+  @apply leading-normal text-xl text-justify;
+}
+.buttonArea {
+  @apply flex flex-row mt-12  justify-center;
+}

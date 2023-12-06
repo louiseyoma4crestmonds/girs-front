@@ -1,0 +1,21 @@
+.landingpageNavContainer {
+  @apply flex place-content-center justify-between phone:block;
+}
+.landingpageNavInnerContainer {
+  @apply flex gap-12 items-baseline phone:block tablet:mt-5 laptop:mt-0;
+}
+.landingpageNavLinkDiv {
+  @apply flex gap-7 phone:flex-col phone:gap-3;
+}
+.landingpageNavDiv {
+  @apply flex justify-between;
+}
+.landingpageNavMenu {
+  @apply absolute right-0 top-7 pr-2.5 tablet:hidden laptop:hidden;
+}
+.landingpageNavBtnContainer {
+  @apply phone:pt-3;
+}
+.landingpageNavtext {
+  @apply text-lg font-normal text-crest-black;
+}

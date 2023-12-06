@@ -1,0 +1,36 @@
+
+pipeline{
+    agent any
+
+    stages {
+        stage("Environment Setup"){
+            steps{
+                sh '''
+                chmod +x devops/env-setup.sh
+                ./devops/env-setup.sh
+                '''
+            }
+        }
+        stage("Deploying"){
+            
+            steps{
+                sh """
+                chmod +x devops/deploy-test.sh
+                ./devops/deploy-test.sh
+                """
+            }
+        }
+        stage("Testing"){
+            
+            steps{
+                sh """
+                chmod +x devops/cypress-test.sh
+                ./devops/cypress-test.sh
+                """
+            }
+        }
+
+
+        
+    }
+}

@@ -1,0 +1,66 @@
+.filterContainer {
+  @apply flex flex-row justify-around w-16 h-7 border rounded border-crest-lightDark cursor-pointer bg-crest-background;
+}
+
+.filterContainerSpan {
+  @apply text-xs font-medium self-center;
+}
+
+.filterOptionsContainer {
+  @apply w-64 -ml-56 bg-crest-white rounded-sm;
+}
+
+.filterActivitiesContainer {
+  @apply flex justify-between cursor-pointer border-b pb-2.5 px-4 pt-2.5 border-crest-ash;
+}
+
+.firstDropDownMenu {
+  @apply flex justify-between cursor-pointer border-b pb-2.5 px-4 pt-2.5;
+}
+
+.firstDropDownMenuButton {
+  @apply font-medium text-lg text-crest-brown;
+}
+
+.firstMenu {
+  @apply py-2.5 pl-7 pr-5 cursor-pointer text-sm text-crest-ash101 border-b border-crest-ash hover:bg-crest-transparent;
+}
+
+.secondDropDownMenu {
+  @apply flex justify-between cursor-pointer pb-2.5 px-4 pt-2.5;
+}
+
+.filterFirstMenuToggleButtonIcon {
+  @apply mr-1 w-4 h-4 transform duration-200;
+}
+
+.filterFirstMenuToggleButtonIconOpen {
+  @apply rotate-180;
+}
+
+.filterInput {
+  @apply flex justify-center mx-auto border font-normal text-crest-ash101 bg-crest-transparent rounded border-crest-ash102 py-2 px-6 mt-1;
+}
+
+.filterSpan {
+  @apply block pt-4 pl-6 font-normal text-xs text-crest-ash101;
+}
+
+.filterButton {
+  @apply bg-crest-pink text-crest-transparent text-xs font-medium px-14 py-2 rounded-sm;
+}
+.secondDropDownSpan {
+  @apply flex w-56 text-xs mx-auto justify-center pt-4 text-crest-ash101;
+}
+.filterFirstList {
+  @apply flex justify-between items-center;
+}
+.filterCheckboxContainer {
+  @apply w-4 h-5  rounded  cursor-pointer;
+}
+.secondListContainer {
+  @apply bg-crest-transparent h-72;
+}
+.filterButtonContainer {
+  @apply flex justify-center mt-6;
+}

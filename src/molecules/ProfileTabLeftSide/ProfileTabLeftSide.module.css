@@ -1,0 +1,33 @@
+.profileTabLeftSidecircle1 {
+  @apply w-[120px] h-[120px] rounded-full bg-gradient-to-r from-crest-red to-crest-blue relative mx-auto;
+}
+.profileTabLeftSideInnerCircle {
+  @apply w-[110px] h-[110px] rounded-full bg-crest-white top-1 left-[5px] absolute;
+}
+.profiletabLeftSideLabel {
+  @apply bg-crest-black rounded-xl px-4 py-2 text-crest-white font-medium text-xs mt-4 cursor-pointer;
+}
+.profiletabLeftSideLabelDiv {
+  @apply mt-8 flex justify-center;
+}
+.errorMessage {
+  @apply text-crest-red text-center mt-4;
+}
+.removePhotoText {
+  @apply flex justify-center text-xs text-crest-gray mt-12 cursor-pointer;
+}
+.modalText {
+  @apply mt-6 text-3xl font-bold text-center px-4;
+}
+.modalText2 {
+  @apply mt-10 text-3xl font-bold text-center px-4;
+}
+.btnDiv {
+  @apply flex justify-center mt-12 mb-6;
+}
+.modalImgDiv {
+  @apply flex justify-center mt-6;
+}
+.successMsg {
+  @apply text-center py-2.5 mt-4 rounded-md text-crest-green;
+}
